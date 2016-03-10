@@ -1,0 +1,124 @@
+body {
+	background-image: url(fon.jpg);
+}
+
+.wrapper {
+	background-color: white;
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: -10px;
+	font: 12pt/10pt sans-serif;
+}
+
+.logo {
+	float: left;
+	margin-left: 25px;
+	padding-top: 20px;
+
+}
+
+
+.contacts {
+	color: #6eacc0;
+	margin-left: 800px;
+	padding-top: 20px;
+	font-size: 12px;
+
+
+}
+
+.picture {
+	line-height: 0px;
+	
+}
+
+.list {
+	margin-left: 630px;
+	margin-right: 30px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	
+}
+
+.list li a {
+color: #6eacc0;
+text-decoration: underline;
+}
+
+.list li {
+display: inline-block;
+width: 50px;
+color: #6eacc0;
+font-size: 9px;
+text-align: center;
+}
+
+
+.submenu {
+	display: none;
+}
+
+.menu ul > li:hover > .submenu {
+    display: block;
+    width: 150px;
+    background-color: #333333;
+}
+
+.menu {
+	width: 1000px;
+	background-color: #333333;
+	height: 30px;
+	letter-spacing: -1px;
+}
+
+.menu li{
+	display: inline-block;
+	padding: 10px 30px 10px 30px;
+	color: white;
+	font-size: 13px;
+	line-height: normal;
+	letter-spacing: normal;
+
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+
+.left {
+	background-color: #edeef0;
+	width: 210px;
+	float: left;
+	text-align: center;
+	height: 480px;
+	padding: 10px 0px 10px 0px;
+	line-height: 1.5;
+	font-size: 14px;
+
+}
+
+.right {
+	display: inline-block;
+	float: right;
+	background-color: #edeef0;
+	width: 210px;
+	text-align: center;
+	height: 480px;
+	padding: 10px 0px 10px 0px;
+	line-height: 1.5;
+	font-size: 14px;
+}
+
+.footer {
+	clear: both;
+}
+
+.copyright {
+	text-align: center;
+	color: white;
+	font-size: 14px;
+	height: 17px;
+	
+}
